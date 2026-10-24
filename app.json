@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Club San Jose Oficial",
+    "slug": "appsanjose",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "android": {
+      "package": "com.oruro.appsanjose",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}

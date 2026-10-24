@@ -1,0 +1,55 @@
+// Archivo: config/CFG_02_ConstantesApp.js (Max 75 lineas)
+export const CFG_CONSTANTES_DEFAULT = {
+  VERSION_APK_ACTUAL: '1.0.0',
+  HORA_SORTEO_DIARIO: '06:00 AM',
+  TOQUES_SECRETOS_BOVEDA: 5,
+  TIEMPO_MAX_TOQUES_MS: 3000,
+  ENCUADRE_PANTALLA_PCT: {
+    arriba_pct: 4,
+    abajo_pct: 6,
+    izquierda_pct: 3,
+    derecha_pct: 3,
+  },
+  TEMAS_SUSCRIPCION: {
+    GRATIS: {
+      nombre: 'Hincha Santo',
+      fondo: '#FFFFFF',
+      primario: '#002B5B',
+      acento: '#00A8E8',
+      texto: '#0F172A',
+      boton: '#002B5B',
+    },
+    VOLUNTARIO: {
+      nombre: 'Aporte Voluntario',
+      fondo: '#F8FAFC',
+      primario: '#003566',
+      acento: '#38BDF8',
+      texto: '#0F172A',
+      boton: '#0284C7',
+    },
+    BASICO: {
+      nombre: 'Plan Básico Bronce',
+      fondo: '#0A192F',
+      primario: '#112240',
+      acento: '#CD7F32',
+      texto: '#F8FAFC',
+      boton: '#CD7F32',
+    },
+    MEDIO: {
+      nombre: 'Plan Medio Plata',
+      fondo: '#020C1B',
+      primario: '#0F172A',
+      acento: '#00F5D4',
+      texto: '#FFFFFF',
+      boton: '#00BBF9',
+    },
+    PREMIUM: {
+      nombre: 'Plan Dorado VIP',
+      fondo: '#050505',
+      primario: '#141414',
+      acento: '#D4AF37',
+      texto: '#FFFBEB',
+      boton: '#D4AF37',
+    },
+  },
+};
